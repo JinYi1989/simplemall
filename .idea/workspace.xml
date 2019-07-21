@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54212adf-4683-435c-bce7-fbd965280cbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base-serv/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/src/main/java/com/simplemall/micro/serv/base/admin/AdminServerApplicaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/java/com/simplemall/micro/serv/base/admin/AdminServerApplicaton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/src/main/java/com/simplemall/micro/serv/base/admin/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/java/com/simplemall/micro/serv/base/admin/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/admin-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/admin-server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/conf-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/conf-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/conf-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/conf-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/conf-server/src/main/java/com/simplemall/micro/serv/config/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/conf-server/src/main/java/com/simplemall/micro/serv/config/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/conf-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/conf-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/eureka-server/src/main/java/com/simplemall/micro/serv/eureka/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/eureka-server/src/main/java/com/simplemall/micro/serv/eureka/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/hystrix-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/hystrix-dashboard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/hystrix-dashboard/src/main/java/com/simplemall/micro/serv/base/hystrix/HystrixDashboardApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/hystrix-dashboard/src/main/java/com/simplemall/micro/serv/base/hystrix/HystrixDashboardApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/hystrix-dashboard/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/hystrix-dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/src/main/java/com/simplemall/micro/serv/base/zipkin/SleuthServerApplicaton.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/java/com/simplemall/micro/serv/base/zipkin/SleuthServerApplicaton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/sleuth-server/src/main/resources/sql/mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/sleuth-server/src/main/resources/sql/mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/turbine-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/turbine-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/turbine-server/src/main/java/com/simplemall/micro/serv/base/turbine/TurbineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/turbine-server/src/main/java/com/simplemall/micro/serv/base/turbine/TurbineApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/turbine-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/turbine-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/ZuulServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/ZuulServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/AccessTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/AccessTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/ErrorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/ErrorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/PostFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/PostFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/RoutingFitler.java" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/java/com/simplemall/micro/serv/zuul/filter/RoutingFitler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-service/zuul-server/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/base-serv/zuul-server/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/common-module/target/" />
+    <ignored path="$PROJECT_DIR$/front-app/target/" />
+    <ignored path="$PROJECT_DIR$/order-service/target/" />
+    <ignored path="$PROJECT_DIR$/msg-service/target/" />
+    <ignored path="$PROJECT_DIR$/account-sevice/target/" />
+    <ignored path="$PROJECT_DIR$/payment-service/target/" />
+    <ignored path="$PROJECT_DIR$/product-service/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/turbine-server/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/eureka-server/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/sleuth-server/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/admin-server/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/conf-server/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/base-serv/hystrix-dashboard/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base-serv/eureka-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>common-module</find>
+      <find>org.springframework.cloud</find>
+      <find>dependencyManagement</find>
+      <find>&lt;dependencyManagement&gt;</find>
+      <find>spring-boot-starter-web</find>
+      <find>&lt;artifactId&gt;spring-cloud-starter-config&lt;/artifactId&gt;</find>
+      <find>config</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base-service/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\ProgramData\maven\repository" />
+        <option name="mavenHome" value="D:/ProgramFiles/apache/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="simplemall-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplemall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simplemall-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplemall" type="462c0819:PsiDirectoryNode" />
+              <item name="base-serv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simplemall-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplemall" type="462c0819:PsiDirectoryNode" />
+              <item name="base-serv" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simplemall-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplemall" type="462c0819:PsiDirectoryNode" />
+              <item name="base-serv" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simplemall-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplemall" type="462c0819:PsiDirectoryNode" />
+              <item name="base-serv" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simplemall-proj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplemall" type="462c0819:PsiDirectoryNode" />
+              <item name="base-serv" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.FrontAPPClientApplication">
+    <configuration name="AccountServApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="account-sevice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.account.AccountServApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="conf-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.config.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontAPPClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="front-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.page.FrontAPPClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.base.hystrix.HystrixDashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsgServApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="msg-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.msg.MsgServApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.order.OrderServApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentServApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.pay.PaymentServApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.prd.ProductServApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="turbine-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.base.turbine.TurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simplemall.micro.serv.zuul.ZuulServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54212adf-4683-435c-bce7-fbd965280cbf" name="Default Changelist" comment="" />
+      <created>1563632721196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563632721196</updated>
+      <workItem from="1563632723700" duration="2582000" />
+      <workItem from="1563636114074" duration="1829000" />
+      <workItem from="1563677786837" duration="5987000" />
+      <workItem from="1563699305461" duration="2139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12537000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/base-serv/admin-server/src/main/java/com/simplemall/micro/serv/base/admin/AdminServerApplicaton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-sevice/src/main/java/com/simplemall/account/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-serv/eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-module/src/main/java/com/simplemall/micro/serv/common/service/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-sevice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="136" column="69" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-app/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-serv/admin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-serv/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-sevice/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-serv/admin-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-sevice/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-serv/eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.19677791" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
